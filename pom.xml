@@ -8,7 +8,7 @@
 
 	<groupId>com.github.oehme.xtend</groupId>
 	<artifactId>xtend-querydsl</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Xtend QueryDsl</name>
 	<description>A small Xtend wrapper for the awesome QueryDsl library</description>
 	<url>https://github.com/oehme/xtend-querydsl</url>
@@ -18,7 +18,7 @@
 		<connection>scm:git:git://github.com/oehme/xtend-querydsl.git</connection>
 		<developerConnection>scm:git:git@github.com:oehme/xtend-querydsl.git</developerConnection>
 		<url>https://github.com/oehme/xtend-querydsl</url>
-		<tag>xtend-querydsl-1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<developers>
