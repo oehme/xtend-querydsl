@@ -3,6 +3,8 @@ xtend-querydsl
 
 A small Xtend wrapper for the awesome QueryDsl library. 
 
+[![Build Status](https://oehme.ci.cloudbees.com/job/xtend-querydsl/badge/icon)](https://oehme.ci.cloudbees.com/job/xtend-querydsl/)
+
 Features
 ========
 
