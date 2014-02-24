@@ -21,3 +21,5 @@ This wrapper mainly adds operator overloads for expressions. Instead of writing
 You can now write
 
     person.firstName == "Stefan" && person.age > 20
+
+![](http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png)
