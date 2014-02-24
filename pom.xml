@@ -57,7 +57,7 @@
 	</organization>
 
 	<properties>
-		<xtend.version>2.4.3</xtend.version>
+		<xtend.version>2.5.0</xtend.version>
 	</properties>
 
 	<dependencies>
