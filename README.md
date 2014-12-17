@@ -3,13 +3,8 @@ xtend-querydsl
 
 A small Xtend wrapper for the awesome [QueryDsl](http://www.querydsl.com/) library. 
 
-[![Build Status](https://oehme.ci.cloudbees.com/job/xtend-querydsl/badge/icon)](https://oehme.ci.cloudbees.com/job/xtend-querydsl/)
-
-    <dependency>
-      <groupId>com.github.oehme.xtend</groupId>
-      <artifactId>xtend-querydsl</artifactId>
-      <version>...</version>
-    </dependency>
+[![Build Status](https://travis-ci.org/oehme/xtend-querydsl.svg)](https://travis-ci.org/oehme/xtend-querydsl)
+[ ![Download](https://api.bintray.com/packages/oehme/maven/xtend-querydsl/images/download.svg) ](https://bintray.com/oehme/maven/xtend-querydsl/_latestVersion)
 
 Features
 ========
@@ -22,4 +17,3 @@ You can now write
 ```java
     person.firstName == "Stefan" && person.age > 20
 ```  
-![](http://www.cloudbees.com/sites/default/files/Button-Built-on-CB-1.png)

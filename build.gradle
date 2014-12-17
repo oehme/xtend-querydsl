@@ -1,20 +1,10 @@
-buildscript {
-	repositories {
-		maven { url 'http://dl.bintray.com/oehme/maven/' }
-	}
-	dependencies {
-		classpath 'de.oehme.sobula:sobula:0.0.+'
-	}
-}
-
 plugins {
-  id 'org.xtend.xtend' version '0.3.1'
+  id 'org.xtend.xtend' version '0.3.5'
+	id 'com.github.oehme.sobula.bintray-release' version '0.4.1'
+	id 'com.github.oehme.sobula.stefan' version '0.4.1'
 }
-apply plugin: 'de.oehme.sobula.maven-release'
-apply plugin: 'de.oehme.sobula.bintray-release'
 
 group = 'com.github.oehme.xtend'
-version = '1.0.1'
 description = 'A small Xtend wrapper for the awesome QueryDsl library'
 
 repositories {
@@ -25,3 +15,5 @@ dependencies {
 	compile 'org.eclipse.xtend:org.eclipse.xtend.lib:2.7.+'
 	compile 'com.mysema.querydsl:querydsl-core:3.2.1'
 }
+
+sourceCompatibility = 1.6
